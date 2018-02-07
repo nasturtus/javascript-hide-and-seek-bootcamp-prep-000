@@ -18,6 +18,8 @@ function deepestChild() {
  //return document.querySelector('div#grand-node div div div div')
  var nodeList = document.querySelectorAll('div#grand-node')
  while (true) {
-   if nodeList.hasChild
+   if (nodeList.hasChildNodes) {
+     
+   }
  }
 }
