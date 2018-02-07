@@ -20,6 +20,8 @@ function deepestChild() {
  while (true) {
    if (nodeList.hasChildNodes) {
      nodeList = nodeList[0].firstElementChild
+   } else {
+     return nodeList[0]
    }
  }
 }
