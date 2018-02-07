@@ -15,5 +15,5 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
- focum 
+ return document.querySelector('div#grand-node div div div div')
 }
