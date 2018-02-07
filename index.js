@@ -21,7 +21,7 @@ function deepestChild() {
    if (nodeList.hasChildNodes) {
      nodeList = nodeList[0].firstElementChild
    } else {
-     return nodeList[0]
+     return nodeList
    }
  }
 }
